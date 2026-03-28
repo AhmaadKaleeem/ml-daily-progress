@@ -27,6 +27,9 @@ J(θ) = (1 / m) * Σ(i = 1 to m) |yᵢ - ŷᵢ|
 **Description:**
 - Averages the absolute differences.
 - Less sensitive to outliers.
+- Cost = your “honest critic” of the model.
+- Gradient descent = your robot listens to the critic and updates slope/intercept to reduce error.
+- Using 1/(2*n) in cost = preparing the formula so derivative is clean.
 
 ---
 
